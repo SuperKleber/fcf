@@ -2,9 +2,10 @@ export default {
   colors: {
     background: "#092532",
     text: "#f7f7ee",
-    primary: "#9bdeac",
+    primary: "#4e8d7c",
     secondary: "#ea97ad",
   },
+  radii: [4, 8, 16],
   fonts: {
     body: "Montserrat",
     heading: "Nerko One",
@@ -28,6 +29,17 @@ export default {
       flexDirection: "column",
       justifyContent: "flex-start",
       alignItems: "center",
+    },
+  },
+  buttons: {
+    default: {
+      cursor: "pointer",
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "center",
+    },
+    primary: {
+      variant: "buttons.default",
     },
   },
 };
